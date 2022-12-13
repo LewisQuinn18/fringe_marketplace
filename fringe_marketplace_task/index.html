@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Fringe Marketplace</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- scripts and styles if i was doing this for a project i would enque these in the functions.php file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css\styles.css">
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" href="css\lightslider.css">
+    <link rel="stylesheet" href="css\owl.carousel.min.css">
+    <link rel="stylesheet" href="css\owl.theme.default.min.css">
+  </head>
+  <body>
+
+    <!-- header -->
+    <header>
+      <div class="container head-mast col-12">
+        <div class="row col-12">
+          <div class="head-mast-top col-12">
+            <div class="head-sec1 col-10">
+
+              <div class="img-cont-on" id="nav-icon4" onclick="myFunction_gsm('sec1')">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+              <div class="topnav">
+                <a href="#">Catagories</a>
+                <a href="#">Advanced Search</a>
+                <div class="search-container">
+                  <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <div class="head-sec3 col-2">
+              <img src="imgs\logo.svg" alt="">
+            </div>
+          </div>
+
+          <div class="head-mast-bttm col-12">
+            <div class="col-12">
+              <p style="color:#ffffff90;">You are here: <b><a href="#" style="color:#fff;">Browse shows</a></b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <!-- home banner -->
+    <div class="home-banner">
+      <div class="home-banner-overlay">
+        <div class="home-sec row">
+          <div class="banner-cont col-12">
+            <div class="col-7">
+              <!-- this would be a taxonomy or category  -->
+              <h6 style="color:#ffffff90;">Comedy</h6>
+              <!-- post title -->
+              <h1>John Hegley's Drawings of Dromedaries (And Other Creatures)</h1>
+              <div class="icon-list">
+                <a href="#">Contact shows</a>
+                <a href="#">Progammers Notes</a>
+              </div>
+              <div class="featured-posts col-12">
+                <div class="featured-post1 col-4">
+                  <i class="fa fa-play-circle" style=""></i>
+                  <h6>Watch Trailer</h6>
+                </div>
+                <div class="featured-post2 col-4">
+                  <i class="fa fa-play-circle" style=""></i>
+                  <h6>Behind the scenes</h6>
+                </div>
+                <div class="featured-post3 col-4">
+                  <i class="fa fa-play-circle" style=""></i>
+                  <h6>Show exerpt #1</h6>
+                </div>
+              </div>
+              <div class="col-12">
+                <p style="margin-top: 30px !important; color:#ffffff90;">Image credit: <b><a href="#" style="color:#fff;">David Buchan</a></b></p>
+              </div>
+            </div>
+            <div class="col-5">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- main body -->
+    <div class="main-body">
+      <div class="row">
+        <!-- top section with accredditions and logo -->
+        <div class="main-body-top col-12">
+          <div class="col-6">
+
+          </div>
+          <div class="col-6">
+
+          </div>
+        </div>
+
+        <!-- information section -->
+        <div class="info-sec col-12">
+          <!-- title -->
+          <div class="col-12">
+            <!-- post title -->
+            <h2>John Hegley's Drawings of Dromedaries (And Other Creatures)</h2>
+          </div>
+
+          <!-- info secton left -->
+          <div class="info-sec-bttm col-12">
+            <div class="info-sec-bttm-l col-4">
+              <div class="col-12">
+                <!-- these would be acf fields attached to the post type -->
+                <p>Performer(s): <b>John Hegley</b></p>
+                <p>Category: <b>Comedy</b></p>
+                <p>Theme: <b>Identity, Solo-Show</b></p>
+              </div>
+
+              <!-- post/ event content -->
+              <div class="col-12">
+                <p>***post-content***</p>
+                <h6><b>Ability of the work to be adapted between digital and live</b></h6>
+                <p>***ability content***</p>
+                <h6><b>Touring Notes</b></h6>
+                <p>***Touring content***</p>
+                <h6><b>Other ways this work could be shared with presenting parteners and audiences</b></h6>
+                <p>***other content***</p>
+              </div>
+            </div>
+
+            <!-- info section right -->
+            <div class="info-sec-bttm-r col-8">
+              <div class="col-12">
+
+                <!-- right info accordion -->
+                <div class="info-accord col-12">
+                  <button class="accordion">General Show Info</button>
+                  <div class="panel">
+                    <p>***Show Info***</p>
+                  </div>
+
+                  <button class="accordion">Collaborate</button>
+                  <div class="panel">
+                    <p>***Collaborate Info***</p>
+                  </div>
+
+                  <button class="accordion">Connect</button>
+                  <div class="panel">
+                    <p>***Connect Info***</p>
+                  </div>
+                </div>
+
+                <!-- contact section -->
+                <div class="info-sec-contact col-12">
+                  <div class="col-12">
+                    <h5><b>Contact Show</b></h5>
+                  </div>
+                  <div class="off-canvas-contact col-12">
+                    <div class="col-4">
+                      <p>John Hegley<br>Creative Director</p>
+                    </div>
+                    <div class="col-8">
+                      <a class="icon-list" href="#">John.Hegley@web.com</a>
+                      <a class="icon-list" href="#">0789099XXXX</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Post Slider -->
+        <div class="slider-cont col-12">
+
+          <div class="col-12">
+            <h2 style="color: #fff;">Show Photos</h2>
+          </div>
+
+          <!-- Responsive Owl carousel slider -->
+          <div class="owl-carousel">
+
+            <!-- carousel items-->
+            <div>
+              <img src="imgs\slider-image_01.jpeg" alt="">
+            </div>
+
+            <div>
+              <img src="imgs\slider-image_02.jpeg" alt="">
+            </div>
+
+            <div>
+              <img src="imgs\slider-image_03.jpeg" alt="">
+            </div>
+
+            <div>
+              <img src="imgs\slider-image_04.jpeg" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- testimonial section -->
+    <div class="test-sec col-12">
+      <div class="test-cont col-10">
+        <div class="test-marg col-12">
+
+          <div class="col-12">
+            <h2>Programmers Notes</h2>
+          </div>
+
+          <div class="test-col col-12">
+            <div class="test-cont-l col-6">
+              <p><b>***name, position***</b></p>
+              <p>***testimonial contetn***</p>
+            </div>
+            <div class="test-cont-r col-6">
+              <p><b>***name, position***</b></p>
+              <p>***testimonial contetn***</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- clear bottom section -->
+    <div class="main-sec-bttm col-12">
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-sec col-12">
+        <div class="footer-sec-l col-6">
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">FAQs</a>
+        </div>
+        <div class="footer-sec-r col-6">
+          <p>2022 EFFS Charity SC002</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js\bootstrap.min.js"></script>
+    <script src="js\lightslider.js"></script>
+    <script src="js\owl.carousel.min.js"></script>
+    <script src="js\scripts.js"></script>
+  </body>
+</html>
